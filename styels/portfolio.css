@@ -21,13 +21,12 @@
 .header {
     background: #FFF8F3;
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
-
     background-repeat: no-repeat;
     background-position: bottom right, left;
 
 }
 
-/* header and navigationstyels titile */
+/* header and navigations tyels titile */
 
 nav {
     display: flex;
@@ -98,8 +97,8 @@ main {
 }
 
 .selection-title {
-    
-    margin-bottom: 30px;
+
+    margin-bottom: 35px;
 }
 
 .about-description {
@@ -107,18 +106,63 @@ main {
     font-weight: 400;
     font-size: 18px;
     color: #757575;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
-.about-info-contenar{
+
+.about-info-contenar {
     display: flex;
     justify-content: space-around;
 }
-.about .about-title{
+
+.about .about-title {
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-size: 20px;
     font-weight: 700px;
     color: #474747;
+}
+
+/* MY SKills */
+
+.My-skills {
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section {
+
+    margin-bottom: 35px;
+    font-size: 25px;
+}
+
+.skills-description {
+    color: #757575;
+
+
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    
+
+}
+
+.skills {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skills-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-top: 20px;
 }
