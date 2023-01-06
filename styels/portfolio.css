@@ -4,7 +4,7 @@
 }
 
 .text-primary {
-    color: #fd0a0a;
+    color: #0a88fd;
 }
 
 .btn-primary {
@@ -15,14 +15,16 @@
     padding: 18px 35px;
     border-radius: 10px;
     height: 64px;
-    background-color: #fd0a0a;
+    background-color: #0a88fd;
 }
 
 .header {
     background: #FFF8F3;
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right, left;
+    background-position: bottom right , left;
+    margin-left: 10px;
+    
 
 }
 
@@ -60,7 +62,7 @@ nav ul {
 
 .banner-title {
     margin-top: 5px;
-    font-weight: 700;
+    font-weight:700;
     font-size: 80px;
 }
 
@@ -99,6 +101,8 @@ main {
 .selection-title {
 
     margin-bottom: 35px;
+    box-shadow: #00ff0d;
+    
 }
 
 .about-description {
